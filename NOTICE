@@ -1,0 +1,7 @@
+Copyright NOTICE
+
+The the source code of this project is licensed under the Apache License 2.0, except the file data/pairedimagesets/icrawler_extensions.py, which is licensed under the MIT License.
+The file icrawler_extensions.py is adapted from the project icrawler (https://github.com/hellock/icrawler), Copyright (c) 2016 Kai Chen, licensed under MIT License. All modifications to this file made by us are also licensed under the MIT License.
+
+Significant parts of this project are based on VisDiff, licensed under the Apache License 2.0: https://github.com/Understanding-Visual-Datasets/VisDiff
+All of our modifications, except of our modifications to icrawler_extensions.py, are also licensed under the Apache License 2.0. Files containing content from VisDiff AND modifications or additions made by us are marked with a copyright notice in the first line of the file.

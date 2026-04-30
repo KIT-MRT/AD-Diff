@@ -1,0 +1,65 @@
+{"set1": "Children crossing a street", "set2": "Elderly crossing a street", "difference": "Age group (Children vs Elderly)", "category": "pedestrians"}
+{"set1": "Pedestrians under umbrellas", "set2": "Pedestrians", "difference": "Accessory presence (Umbrellas vs None)", "category": "pedestrians"}
+{"set1": "Pedestrians crossing during daytime", "set2": "Pedestrians crossing at night", "difference": "Time of day (Daytime vs Night)", "category": "pedestrians"}
+{"set1": "Police officers directing traffic", "set2": "Construction workers directing traffic", "difference": "Person role (Police officers vs Construction workers)", "category": "pedestrians"}
+{"set1": "Pedestrian walking on the sidewalk with face mask", "set2": "Pedestrian walking on the sidewalk", "difference": "Face mask (Face mask vs None)", "category": "pedestrians"}
+{"set1": "Pedestrian with a stroller", "set2": "Pedestrian with a suitcase", "difference": "Carried object (Stroller vs Suitcase)", "category": "pedestrians"}
+{"set1": "Man walking with crutches", "set2": "Man walking", "difference": "Mobility aid (Crutches vs None)", "category": "pedestrians"}
+{"set1": "People in costumes walking on sidewalk", "set2": "People walking on sidewalk", "difference": "Attire (Costumes vs Regular clothing)", "category": "pedestrians"}
+{"set1": "Person sitting on bench", "set2": "Person sleeping on bench", "difference": "Activity (Sitting vs Sleeping)", "category": "pedestrians"}
+{"set1": "Pedestrian wearing a red jacket", "set2": "Pedestrian wearing a blue jacket", "difference": "Clothing color (Red jacket vs Blue jacket)", "category": "pedestrians"}
+
+{"set1": "Police cars", "set2": "Taxis waiting at a stand", "difference": "Vehicle role (Police cars vs Taxis)", "category": "cars_and_light_trucks"}
+{"set1": "Passenger vans on a highway", "set2": "Pickup trucks on a highway", "difference": "Vehicle body style (Passenger vans vs Pickup trucks)", "category": "cars_and_light_trucks"}
+{"set1": "Cars stopped at a red traffic light", "set2": "Cars moving through a green traffic light", "difference": "Traffic signal phase (Red light vs Green light)", "category": "cars_and_light_trucks"}
+{"set1": "White cars on the street", "set2": "Black cars on the street", "difference": "Vehicle color (White vs Black)", "category": "cars_and_light_trucks"}
+{"set1": "Red car", "set2": "Blue car", "difference": "Vehicle color (Red vs Blue)", "category": "cars_and_light_trucks"}
+{"set1": "Pink SUV", "set2": "SUV", "difference": "Vehicle color (Pink vs Default)", "category": "cars_and_light_trucks"}
+{"set1": "Motorhome on country road", "set2": "Van on country road", "difference": "Vehicle type (Motorhome vs Van)", "category": "cars_and_light_trucks"}
+{"set1": "Stretch limousine", "set2": "Sedan car", "difference": "Vehicle body style (Stretch limousine vs Sedan)", "category": "cars_and_light_trucks"}
+{"set1": "Taxis on city street", "set2": "Cars on city street", "difference": "Vehicle type (Taxi vs Car)", "category": "cars_and_light_trucks"}
+{"set1": "Sports car parked", "set2": "Car parked", "difference": "Vehicle type (Sports car vs Car)", "category": "cars_and_light_trucks"}
+
+{"set1": "Motorcyclists waiting at a traffic light", "set2": "Bicyclists waiting at a traffic light", "difference": "Vehicle type (Motorcycles vs Bicycles)", "category": "micromobility"}
+{"set1": "Bicycles parked on the sidewalk", "set2": "E-scooters parked on the sidewalk", "difference": "Micromobility device (Bicycles vs E-scooters)", "category": "micromobility"}
+{"set1": "Motorcyclists riding in groups", "set2": "Motorcyclists riding alone", "difference": "Group size (Groups vs Alone)", "category": "micromobility"}
+{"set1": "Cyclists wearing reflective vests", "set2": "Cyclists wearing dark clothing", "difference": "Clothing visibility (Reflective vests vs Dark clothing)", "category": "micromobility"}
+{"set1": "Cyclists on a rural road", "set2": "Cyclists on an urban road", "difference": "Environment type (Rural road vs Urban road)", "category": "micromobility"}
+{"set1": "Skateboarders on a bike path", "set2": "Scooter riders on a bike path", "difference": "Micromobility device (Skateboards vs Scooters)", "category": "micromobility"}
+{"set1": "Bicyclists performing a wheelie on city street", "set2": "Bicyclists riding on city street", "difference": "Riding stunt (Wheelie vs Normal riding)", "category": "micromobility"}
+{"set1": "Cyclist riding with cargo trailer", "set2": "Cyclist riding", "difference": "Cargo attachment (Trailer vs None)", "category": "micromobility"}
+{"set1": "Quad on city street", "set2": "Motorbike on city street", "difference": "Vehicle type (Quad vs Motorbike)", "category": "micromobility"}
+{"set1": "Electric wheelchair", "set2": "Manual wheelchair", "difference": "Wheelchair type (Electric vs Manual)", "category": "micromobility"}
+
+{"set1": "Tram at a tram stop", "set2": "Bus at a stop", "difference": "Vehicle type (Tram vs Bus)", "category": "large_vehicles"}
+{"set1": "Delivery truck parked at curb", "set2": "Garbage truck parked at curb", "difference": "Vehicle function (Delivery vs Garbage)", "category": "large_vehicles"}
+{"set1": "School bus on a residential street", "set2": "City bus on a main road", "difference": "Bus type (School vs City)", "category": "large_vehicles"}
+{"set1": "Dump truck at a construction site", "set2": "Cement mixer at a construction site", "difference": "Construction vehicle type (Dump truck vs Cement mixer)", "category": "large_vehicles"}
+{"set1": "Tractor waiting at a traffic light", "set2": "Buses waiting at a traffic light", "difference": "Vehicle category (Tractors vs Buses)", "category": "large_vehicles"}
+{"set1": "Construction cranes near the road", "set2": "Excavators near the road", "difference": "Construction machinery type (Cranes vs Excavators)", "category": "large_vehicles"}
+{"set1": "Buses idling at a depot", "set2": "Trucks idling at a depot", "difference": "Vehicle category (Buses vs Trucks)", "category": "large_vehicles"}
+{"set1": "Articulated bus", "set2": "Bus", "difference": "Bus length (Articulated vs Standard)", "category": "large_vehicles"}
+{"set1": "Truck trailer with forklift attached", "set2": "Truck trailer", "difference": "Trailer equipment (Forklift attached vs None)", "category": "large_vehicles"}
+{"set1": "Green Bus", "set2": "Blue Bus", "difference": "Bus color (Green vs Blue)", "category": "large_vehicles"}
+
+{"set1": "Red traffic lights", "set2": "Green traffic lights", "difference": "Signal color (Red vs Green)", "category": "traffic_control_devices"}
+{"set1": "Stop signs at an intersection", "set2": "Yield signs at an intersection", "difference": "Sign type (Stop vs Yield)", "category": "traffic_control_devices"}
+{"set1": "Pedestrian crossing markings", "set2": "Bicycle lane markings", "difference": "Road marking type (Pedestrian crossing vs Bicycle lane)", "category": "traffic_control_devices"}
+{"set1": "Speed limit signs", "set2": "No parking signs", "difference": "Sign meaning (Speed limit vs No parking)", "category": "traffic_control_devices"}
+{"set1": "Orange traffic cones", "set2": "Yellow traffic cones", "difference": "Cone color (Orange vs Yellow)", "category": "traffic_control_devices"}
+{"set1": "Roundabout signs", "set2": "Stop signs", "difference": "Intersection control type (Roundabout vs Stop)", "category": "traffic_control_devices"}
+{"set1": "Painted road marking", "set2": "Raised lane dividers", "difference": "Divider type (Painted vs Raised)", "category": "traffic_control_devices"}
+{"set1": "Variable message board showing live updates", "set2": "Static construction warning sign", "difference": "Sign type (Variable message board vs Static warning sign)", "category": "traffic_control_devices"}
+{"set1": "Traffic light with arrow", "set2": "Traffic light", "difference": "Traffic light feature (Arrow vs None)", "category": "traffic_control_devices"}
+{"set1": "Traffic cone with reflective strip", "set2": "Plain traffic cone", "difference": "Reflective material (Reflective strip vs None)", "category": "traffic_control_devices"}
+
+{"set1": "Dogs crossing a street", "set2": "Cats crossing a street", "difference": "Animal type (Dogs vs Cats)", "category": "misc"}
+{"set1": "Pigeons on a city sidewalk", "set2": "Crows on a city sidewalk", "difference": "Bird type (Pigeons vs Crows)", "category": "misc"}
+{"set1": "Deer near a rural road", "set2": "Cows near a rural road", "difference": "Animal species (Deer vs Cows)", "category": "misc"}
+{"set1": "Pedestrian pushing a shopping cart", "set2": "Pedestrian pushing a wheelchair", "difference": "Object being pushed (Shopping cart vs Wheelchair)", "category": "misc"}
+{"set1": "Streetlights during the night", "set2": "Streetlights during the day", "difference": "Time of day (Night vs Day)", "category": "misc"}
+{"set1": "Drone hovering above a road for monitoring", "set2": "CCTV camera mounted on pole monitoring road", "difference": "Monitoring platform (Drone vs CCTV camera)", "category": "misc"}
+{"set1": "Wild deer detected near roadside at dusk", "set2": "Domesticated cow near roadside at dusk", "difference": "Domestication status (Wild deer vs Domesticated cow)", "category": "misc"}
+{"set1": "Horse pulling a carriage", "set2": "Horse standing", "difference": "Horse activity (Pulling carriage vs Standing)", "category": "misc"}
+{"set1": "Curvy road", "set2": "Straight road", "difference": "Road geometry (Curvy vs Straight)", "category": "misc"}
+{"set1": "Streets decorated for christmas", "set2": "Streets", "difference": "Decorations (Christmas vs None)", "category": "misc"}

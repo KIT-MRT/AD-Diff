@@ -1,0 +1,76 @@
+project: AD-Diff_Bench
+wandb: true  # whether to log to wandb
+
+data:
+  mode: "csv" # csv or dirs
+  root: ./data/pairedimagesets/
+  name: Data  # name of dataset
+  group1: "A"  # name of group 1
+  group2: "B"  # name of group 2
+  purity: 1.0  # how much of each concept is in each group (1.0 means perfect seperation, 0.5 means perfect mix), 0% purity in the original VisDiff paper corresponds to purity=0.5 here
+  subset: False  # if you want to use a subset of the dataset, set this to name of the desired subset value
+
+context_mode: red_bbox  # only affects prompt, actual context mode is determined by config subdir! options: no_context, centered, red_bbox
+
+captioner:
+  model: Qwen/Qwen3-VL-30B-A3B-Instruct  # model used in method
+  prompt: CAPTIONING_PROMPT
+
+# proposer:  # VLM Proposer
+#   method: VLMProposer  # how to propose hypotheses
+#   model: Qwen/Qwen3-VL-30B-A3B-Instruct
+#   num_rounds: 3  # number of rounds to propose
+#   num_samples: 20  # number of samples per group to use
+#   sampling_method: random  # how to sample
+#   num_hypotheses: 10  # number of hypotheses to generate per round
+#   prompt: VLM_PROMPT  # prompt to use
+
+proposer:  # VLM Multiple Images Proposer
+  method: VLMMultipleImageProposer  # how to propose hypotheses
+  model: Qwen/Qwen3-VL-30B-A3B-Instruct
+  num_rounds: 3  # number of rounds to propose
+  num_samples: 20  # number of samples per group to use
+  sampling_method: random  # how to sample
+  num_hypotheses: 10  # number of hypotheses to generate per round
+  prompt1: VLM_USER_PROMPT_GROUP_1  # prompt to use for group 1
+  prompt2: VLM_USER_PROMPT_GROUP_2  # prompt to use for group 2
+  prompt3: VLM_USER_PROMPT_RESPONSE  # prompt to use for final hypothesis generation
+  system_prompt: VLM_SYSTEM_PROMPT  # system prompt to use
+
+# proposer:  # LLM Proposer
+#   method: LLMProposer  # how to propose hypotheses
+#   model: Qwen/Qwen3-VL-30B-A3B-Instruct
+#   num_rounds: 3  # number of rounds to propose
+#   num_samples: 20  # number of samples per group to use
+#   sampling_method: random  # how to sample
+#   num_hypotheses: 10  # number of hypotheses to generate per round
+#   prompt: CLIP_FRIENDLY  # prompt to use
+
+# proposer:  # VLM Feature Proposer
+#   method: VLMQwenFeatureProposer  # how to propose hypotheses
+#   num_rounds: 3  # number of rounds to propose
+#   num_samples: 20  # number of samples per group to use
+#   sampling_method: random  # how to sample
+#   num_hypotheses: 10  # number of hypotheses to generate per round
+#   prompt: FEATURE_PROMPT  # prompt to use
+
+ranker:  # CLIP Ranker
+  method: CLIPRanker  # how to rank hypotheses
+  #model: google/siglip-base-patch16-224 # clip model to use
+  #model: laion/CLIP-ViT-bigG-14-laion2B-39B-b160k
+  model: google/siglip2-giant-opt-patch16-384
+  max_num_samples: 1000  # maximum number of samples to use
+  classify_threshold: 0.3  # threshold for clip classification
+  sort_key: "auroc" # key to sort hypotheses by. None to not sort.
+  sort_descending: True # whether to sort in descending order (i.e. larger sort key is better)
+
+# ranker:
+#  method: NullRanker  # do not rank hypotheses
+#  classify_threshold: 0.0  # threshold for clip classification
+
+evaluator:
+  method: LLMEvaluator  # how to evaluate hypotheses
+  model: openai/gpt-oss-120b
+  n_hypotheses: 5  # number of hypotheses to evaluate
+  think: True  # whether to think before evaluating
+  greedy: False  # whether to use greedy decoding

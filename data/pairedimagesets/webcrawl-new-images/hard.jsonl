@@ -1,0 +1,65 @@
+{"set1": "Men in navy shirt", "set2": "Men in black shirt", "difference": "Shirt color (Navy vs Black)", "category": "pedestrians"}
+{"set1": "Construction worker in orange high visibily vest", "set2": "Construction worker in yellow high visibily vest", "difference": "Vest color (Orange vs Yellow)", "category": "pedestrians"}
+{"set1": "Construction worker taking a break", "set2": "Construction worker working", "difference": "Worker activity (Break vs Working)", "category": "pedestrians"}
+{"set1": "Pedestrian with headphones", "set2": "Pedestrian with hat", "difference": "Headwear/audio (Headphones vs Caps)", "category": "pedestrians"}
+{"set1": "Woman walking", "set2": "Blind woman walking with cane", "difference": "Mobility aid/vision (None vs White cane)", "category": "pedestrians"}
+{"set1": "Woman walking with sunglasses", "set2": "Woman walking", "difference": "Eyewear (Sunglasses vs None)", "category": "pedestrians"}
+{"set1": "Pedestrian walking on the sidewalk with a backpack", "set2": "Pedestrian walking on the sidewalk", "difference": "Carried object (Backpack vs None)", "category": "pedestrians"}
+{"set1": "Man long sleeves", "set2": "Man short sleeves", "difference": "Sleeve length (Long vs Short)", "category": "pedestrians"}
+{"set1": "Bridgettine nun", "set2": "Benedictine nun", "difference": "Religious order (Bridgettine vs Benedictine)", "category": "pedestrians"}
+{"set1": "Pedestrians jaywalking", "set2": "Pedestrians crossing a marked crosswalk", "difference": "Crossing behavior (Jaywalking vs Marked crosswalk)", "category": "pedestrians"}
+
+{"set1": "SUV with roof rack", "set2": "SUV", "difference": "Roof accessory (Roof rack vs None)", "category": "cars_and_light_trucks"}
+{"set1": "Sports car with spoiler", "set2": "Spoilerless sports car", "difference": "Spoiler (Present vs Absent)", "category": "cars_and_light_trucks"}
+{"set1": "Hatchback car", "set2": "Sedan car", "difference": "Car body style (Hatchback vs Sedan)", "category": "cars_and_light_trucks"}
+{"set1": "Electric sedan", "set2": "Hybrid sedan", "difference": "Propulsion system (Electric vs Hybrid)", "category": "cars_and_light_trucks"}
+{"set1": "Car with adaptive LED headlights", "set2": "Car with static halogen headlights", "difference": "Headlight technology (Adaptive LED vs Static halogen)", "category": "cars_and_light_trucks"}
+{"set1": "Car with metallic paint finish", "set2": "Car with matte paint finish", "difference": "Paint finish (Metallic vs Matte)", "category": "cars_and_light_trucks"}
+{"set1": "Pickup truck with bull bar", "set2": "Pickup truck", "difference": "Front accessory (Bull bar vs None)", "category": "cars_and_light_trucks"}
+{"set1": "Nissan primera p11", "set2": "Nissan presea r11", "difference": "Vehicle model (Primera vs Presea)", "category": "cars_and_light_trucks"}
+{"set1": "Pickup truck with an open bed", "set2": "Pickup truck with a covered bed", "difference": "Truck bed (Open vs Covered)", "category": "cars_and_light_trucks"}
+{"set1": "Taxi with rooftop advertisement", "set2": "Taxi", "difference": "Advertisement (Rooftop ad vs None)", "category": "cars_and_light_trucks"}
+
+{"set1": "Cyclists in aerodynamic riding posture", "set2": "Cyclists in upright riding posture", "difference": "Riding posture (Aerodynamic vs Upright)", "category": "micromobility"}
+{"set1": "Motorcyclist wearing airbag vest", "set2": "Motorcyclist wearing standard vest", "difference": "Safety equipment (Airbag vest vs Standard vest)", "category": "micromobility"}
+{"set1": "Cyclist wearing smart helmet with camera", "set2": "Cyclist wearing standard helmet", "difference": "Helmet technology (Smart helmet vs Standard helmet)", "category": "micromobility"}
+{"set1": "Bicycle with drop handlebars", "set2": "Bicycle with flat handlebars", "difference": "Handlebar type (Drop vs Flat)", "category": "micromobility"}
+{"set1": "Motorcycle with twin exhaust pipes", "set2": "Motorcycle with single exhaust pipe", "difference": "Exhaust configuration (Twin vs Single)", "category": "micromobility"}
+{"set1": "Bicycle", "set2": "E-bike", "difference": "Bicycle type (Regular vs Electric)", "category": "micromobility"}
+{"set1": "Bicyclists riding uphill", "set2": "Bicyclists riding downgrade", "difference": "Road slope direction (Uphill vs Downgrade)", "category": "micromobility"}
+{"set1": "Riding a recumbent trike", "set2": "Riding a handcycle", "difference": "Propulsion method (Feet vs Hands)", "category": "micromobility"}
+{"set1": "Recumbent trike with electric assist", "set2": "Recumbent trike", "difference": "Assistance (Electric assist vs None)", "category": "micromobility"}
+{"set1": "Three-wheel mobility scooter", "set2": "Four-wheel mobility scooter", "difference": "Wheels (Three vs Four)", "category": "micromobility"}
+
+{"set1": "Diesel truck hauling refrigerated cargo", "set2": "Diesel truck hauling dry cargo", "difference": "Cargo type (Refrigerated vs Dry)", "category": "large_vehicles"}
+{"set1": "Cement mixer truck operating at construction site", "set2": "Cement mixer truck parked at construction site", "difference": "Operational state (Operating vs Parked)", "category": "large_vehicles"}
+{"set1": "Big tractor on road", "set2": "Small tractor on road", "difference": "Vehicle size (Big vs Small)", "category": "large_vehicles"}
+{"set1": "Cab-over semi-truck", "set2": "Conventional semi-truck", "difference": "Cab design (Cab-over vs Conventional)", "category": "large_vehicles"}
+{"set1": "Tractor driving on road roadside cutting", "set2": "Tractor driving on road", "difference": "Work state (Roadside cutting vs Driving)", "category": "large_vehicles"}
+{"set1": "Fire truck with siren lights on", "set2": "Fire truck", "difference": "Emergency light state (On vs Off)", "category": "large_vehicles"}
+{"set1": "Semi truck", "set2": "Electric semi truck", "difference": "Propulsion system (Diesel vs Electric)", "category": "large_vehicles"}
+{"set1": "Garbage truck rear loader on street", "set2": "Garbage truck side loader on street", "difference": "Loading mechanism (Rear loader vs Side loader)", "category": "large_vehicles"}
+{"set1": "Flatbed tow truck", "set2": "Wheel-lift tow truck", "difference": "Tow truck type (Flatbed vs Wheel-lift)", "category": "large_vehicles"}
+{"set1": "Electric excavator at construction site", "set2": "Diesel excavator at construction site", "difference": "Energy source (Electric vs Diesel)", "category": "large_vehicles"}
+
+{"set1": "Temporary Pedestrian Crossing", "set2": "Pedestrian crossing", "difference": "Crossing status (Temporary vs Permanent)", "category": "traffic_control_devices"}
+{"set1": "Unguarded level crossing", "set2": "Half-barrier level crossing", "difference": "Protection (Unguarded vs Half-barrier)", "category": "traffic_control_devices"}
+{"set1": "Australian level crossing with white horizontal crossbuck with text", "set2": "German level crossing with vertical red-and-white andreaskreuz", "difference": "Sign design (White horizontal crossbuck w/ text vs Red-and-white vertical andreaskreuz)", "category": "traffic_control_devices"}
+{"set1": "Winter road with snow stakes", "set2": "Winter road", "difference": "Roadside feature (Snow stakes vs None)", "category": "traffic_control_devices"}
+{"set1": "Bolted speed bumps", "set2": "Asphalt Speed Bumps", "difference": "Speed bump type (Bolted vs Asphalt)", "category": "traffic_control_devices"}
+{"set1": "Road single solid white line", "set2": "Road double solid white line", "difference": "Lane marking (Single solid vs Double solid)", "category": "traffic_control_devices"}
+{"set1": "LED traffic light", "set2": "Incadescent traffic light", "difference": "Light technology (LED vs Incandescent)", "category": "traffic_control_devices"}
+{"set1": "Newly painted lane markings", "set2": "Worn lane markings", "difference": "Marking wear (Newly painted vs Worn)", "category": "traffic_control_devices"}
+{"set1": "Rectangular road signs", "set2": "Circular road signs", "difference": "Sign shape (Rectangular vs Circular)", "category": "traffic_control_devices"}
+{"set1": "Horizontally mounted traffic light", "set2": "Traffic light", "difference": "Mounting orientation (Horizontal vs Vertical)", "category": "traffic_control_devices"}
+
+{"set1": "Guide dog assisting pedestrian", "set2": "Pet dog walking with owner", "difference": "Dog role (Guide dog vs Pet dog)", "category": "misc"}
+{"set1": "Street cleaning vehicle with water jets active", "set2": "Street cleaning vehicle with brushes only", "difference": "Cleaning mechanism (Water jets vs Brushes only)", "category": "misc"}
+{"set1": "Road with fresh asphalt", "set2": "Road with old asphalt", "difference": "Pavement condition (Fresh asphalt vs Old asphalt)", "category": "misc"}
+{"set1": "Dry leaves on road", "set2": "Wet leaves on road", "difference": "Wetness (Dry vs Wet)", "category": "misc"}
+{"set1": "Asphalt road on  summer day melting asphalt", "set2": "Asphalt road on summer day", "difference": "Temperature effect (Melting asphalt vs Normal)", "category": "misc"}
+{"set1": "Street wet from flooding", "set2": "Street wet from rain", "difference": "Water source (Flooding vs Rain)", "category": "misc"}
+{"set1": "Streetlight with LED bulb", "set2": "Streetlight with sodium bulb", "difference": "Light bulb type (LED vs Sodium)", "category": "misc"}
+{"set1": "Brown bear on road", "set2": "Black bear on road", "difference": "Bear species (Brown vs Black)", "category": "misc"}
+{"set1": "Dog wearing a leash", "set2": "Dog", "difference": "Leash (Present vs Absent)", "category": "misc"}
+{"set1": "Yellow labrador retriever on road", "set2": "Golden retriever on road", "difference": "Dog breed (Labrador retriever vs Golden retriever)", "category": "misc"}

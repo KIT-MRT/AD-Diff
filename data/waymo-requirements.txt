@@ -1,0 +1,7 @@
+# python==3.10
+waymo-open-dataset-tf-2-12-0 # requires python 3.10
+polars
+pydantic
+tqdm
+pillow
+

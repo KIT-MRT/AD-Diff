@@ -1,0 +1,65 @@
+{"set1": "People jogging on the sidewalk", "set2": "People walking on the sidewalk", "difference": "Pedestrian motion (Jogging vs Walking)", "category": "pedestrians"}
+{"set1": "Pedestrians moving through fog", "set2": "Pedestrians moving through rain", "difference": "Weather condition (Fog vs Rain)", "category": "pedestrians"}
+{"set1": "Police officer wearing a reflective vest", "set2": "Police officer wearing a dark jacket", "difference": "Uniform visibility/color (Reflective vest vs Dark jacket)", "category": "pedestrians"}
+{"set1": "Pedestrians wearing traditional clothes", "set2": "Pedestrians", "difference": "Clothes (Traditional clothing vs Regular clothing)", "category": "pedestrians"}
+{"set1": "Construction worker with jack hammer", "set2": "Construction worker with hammer", "difference": "Tool type (Jackhammer vs Hammer)", "category": "pedestrians"}
+{"set1": "Pedestrian walking on the sidewalk looking at a smartphone", "set2": "Pedestrian walking on the sidewalk", "difference": "Attention focus (Looking at smartphone vs Looking ahead)", "category": "pedestrians"}
+{"set1": "Pedestrian wearing athletic outfit", "set2": "Pedestrian wearing formal business attire", "difference": "Clothing formality (Athletic vs Formal business)", "category": "pedestrians"}
+{"set1": "Women with long hair", "set2": "Women with short hair", "difference": "Hair length (Long vs Short)", "category": "pedestrians"}
+{"set1": "Elderly woman crossing street with rollator", "set2": "Elderly woman crossing street", "difference": "Mobility aid (Rollator vs None)", "category": "pedestrians"}
+{"set1": "City worker using leaf blower", "set2": "City worker cleaning street", "difference": "Tool usage (Leaf blower vs None)", "category": "pedestrians"}
+
+{"set1": "Vintage car", "set2": "Car", "difference": "Age (Vintage vs New)", "category": "cars_and_light_trucks"}
+{"set1": "Car with a damaged bumper", "set2": "Car with bumper", "difference": "Vehicle damage (Damaged bumper vs Intact bumper)", "category": "cars_and_light_trucks"}
+{"set1": "Electric cars charging at a station", "set2": "Gasoline cars refueling at a station", "difference": "Vehicle energy source (Electric vs Gasoline)", "category": "cars_and_light_trucks"}
+{"set1": "Sedan car", "set2": "SUV", "difference": "Vehicle type (Sedans vs SUVs)", "category": "cars_and_light_trucks"}
+{"set1": "Cars in motion on a wet road", "set2": "Cars in motion on a dry road", "difference": "Road surface condition (Wet vs Dry)", "category": "cars_and_light_trucks"}
+{"set1": "Cars in urban traffic", "set2": "Cars on a rural road", "difference": "Driving environment (Urban vs Rural)", "category": "cars_and_light_trucks"}
+{"set1": "Driving school vehicle", "set2": "Car", "difference": "Vehicle role (Driving school vehicle vs Regular car)", "category": "cars_and_light_trucks"}
+{"set1": "Sedan with roof cargo box", "set2": "Sedan car", "difference": "Roof cargo (Cargo box vs None)", "category": "cars_and_light_trucks"}
+{"set1": "Red fire department SUV", "set2": "Red SUV", "difference": "Vehicle role (Fire department vs Civilian)", "category": "cars_and_light_trucks"}
+{"set1": "Red fire department SUV", "set2": "Red fire department van", "difference": "Vehicle type (SUV vs Van)", "category": "cars_and_light_trucks"}
+
+{"set1": "Mountain bike with thick tires", "set2": "Mountain bike", "difference": "tire size (Thick vs Thin)", "category": "micromobility"}
+{"set1": "Electric scooter with seat", "set2": "Electric scooter", "difference": "Seat presence (Seat vs No seat)", "category": "micromobility"}
+{"set1": "Cyclist wearing full-face helmet", "set2": "Cyclist wearing helmet", "difference": "Helmet type (Full-face vs Standard)", "category": "micromobility"}
+{"set1": "Motorcycle with high handlebars", "set2": "Motorcycle", "difference": "handlebar height (High vs Standard)", "category": "micromobility"}
+{"set1": "Cyclist on a mountain bike", "set2": "Cyclist on a road bike", "difference": "Bicycle category (Mountain bike vs Road bike)", "category": "micromobility"}
+{"set1": "E-scooter riders wearing helmets", "set2": "E-scooter riders", "difference": "Helmet usage (Wearing helmets vs No helmets)", "category": "micromobility"}
+{"set1": "Bicyclists without helmet", "set2": "Bicyclists with helmet", "difference": "Helmet usage (No helmet vs Helmet)", "category": "micromobility"}
+{"set1": "Bicycle with a front basket", "set2": "Bicycle", "difference": "Bicycle accessory (Front basket vs None)", "category": "micromobility"}
+{"set1": "Roller skating", "set2": "Inline skating", "difference": "Skate type (Quad skates vs Inline skates)", "category": "micromobility"}
+{"set1": "Motor tricycle", "set2": "Tricycle", "difference": "Propulsion/type (Motorized tricycle vs Pedal tricycle)", "category": "micromobility"}
+
+{"set1": "Bus with doors open", "set2": "Bus", "difference": "Door state (Open vs Closed)", "category": "large_vehicles"}
+{"set1": "Truck with trailer attached", "set2": "Truck without trailer", "difference": "Trailer attachment (Attached vs Not attached)", "category": "large_vehicles"}
+{"set1": "Bus with advertisements on sides", "set2": "Bus", "difference": "Advertisement presence (Ads vs No ads)", "category": "large_vehicles"}
+{"set1": "Orange garbage truck on road", "set2": "Green garbage truck on road", "difference": "vehicle color (Orange vs Green)", "category": "large_vehicles"}
+{"set1": "Semi-trucks on a freeway", "set2": "Box trucks on a freeway", "difference": "Truck configuration (Semi vs Box)", "category": "large_vehicles"}
+{"set1": "Trolley bus", "set2": "Bus", "difference": "Bus energy source (Trolley electric vs Conventional)", "category": "large_vehicles"}
+{"set1": "Blue bus", "set2": "Blue double-decker bus", "difference": "Bus type (Single-decker vs Double-decker)", "category": "large_vehicles"}
+{"set1": "Snowblower clearing road", "set2": "Snowplow clearing road", "difference": "Snow equipment (Snowblower vs Snowplow)", "category": "large_vehicles"}
+{"set1": "Indian colorful decorated box truck", "set2": "Box truck", "difference": "Decoration (Decorated vs Plain)", "category": "large_vehicles"}
+{"set1": "Container trucks on highway", "set2": "Curtainsider trucks on highway", "difference": "Trailer type (Container vs Curtainsider)", "category": "large_vehicles"}
+
+{"set1": "Street sign", "set2": "Faded street sign", "difference": "Sign condition (New vs Faded)", "category": "traffic_control_devices"}
+{"set1": "Speed limit sign covered in snow", "set2": "Speed limit sign", "difference": "Sign cleanliness (Snow vs Clean)", "category": "traffic_control_devices"}
+{"set1": "Traffic light with countdown timer", "set2": "Traffic light", "difference": "Feature (Countdown timer vs None)", "category": "traffic_control_devices"}
+{"set1": "Temporary plastic barrier fence", "set2": "Temporary metal barrier fence", "difference": "Material (Plastic vs Metal)", "category": "traffic_control_devices"}
+{"set1": "Temporary construction signs", "set2": "Permanent regulatory signs", "difference": "Sign permanence (Temporary vs Permanent)", "category": "traffic_control_devices"}
+{"set1": "Road marking with white paint", "set2": "Road marking with yellow paint", "difference": "Line color (White vs Yellow)", "category": "traffic_control_devices"}
+{"set1": "Traffic light left arrow", "set2": "Traffic light right arrow", "difference": "Arrow direction (Left vs Right)", "category": "traffic_control_devices"}
+{"set1": "Traffic light on cable", "set2": "Traffic light on pole", "difference": "Mounting type (Cable vs Pole)", "category": "traffic_control_devices"}
+{"set1": "Automatic bollard", "set2": "Fixed bollard", "difference": "Bollard type (Automatic vs Fixed)", "category": "traffic_control_devices"}
+{"set1": "Traffic light yellow case", "set2": "Traffic light black case", "difference": "Housing color (Yellow vs Black)", "category": "traffic_control_devices"}
+
+{"set1": "Cat sitting on a parked car", "set2": "Cat sitting on the sidewalk", "difference": "Animal location (On car vs On sidewalk)", "category": "misc"}
+{"set1": "Pedestrian bridge made of metal", "set2": "Pedestrian bridge made of concrete", "difference": "Bridge material (Metal vs Concrete)", "category": "misc"}
+{"set1": "Street vendor carts on a corner", "set2": "Food trucks on a corner", "difference": "Street business type (Vendor carts vs Food trucks)", "category": "misc"}
+{"set1": "Billboards with advertisements", "set2": "Electronic billboards with advertisements", "difference": "Billboard type (Roadside static vs Electronic)", "category": "misc"}
+{"set1": "Pedestrian bridge over a road", "set2": "Vehicle overpass over a road", "difference": "Bridge purpose (Pedestrian vs Vehicle)", "category": "misc"}
+{"set1": "Storefront with bollards", "set2": "Storefront", "difference": "Streetscape feature (Bollards vs None)", "category": "misc"}
+{"set1": "US country road with tumbleweed", "set2": "Us country road", "difference": "Roadside feature (Tumbleweed vs None)", "category": "misc"}
+{"set1": "Pigeon eating from the ground", "set2": "Pigeon flying above the road", "difference": "Bird activity (Eating vs Flying)", "category": "misc"}
+{"set1": "Wet asphalt road", "set2": "Dry asphalt road", "difference": "Road surface condition (Wet vs Dry)", "category": "misc"}
+{"set1": "Street with cobblestone pavement", "set2": "Street with asphalt", "difference": "Pavement type (Cobblestone vs Asphalt)", "category": "misc"}

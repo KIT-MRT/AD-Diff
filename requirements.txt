@@ -1,0 +1,14 @@
+# python>=3.12
+click
+pandas
+omegaconf
+tqdm
+wandb
+lmdb
+openai>=1.80.0
+pillow>=11.0.0
+seaborn
+scipy
+scikit-learn
+pyexiv2
+icrawler
