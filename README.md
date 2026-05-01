@@ -9,15 +9,15 @@ Note: The code in this repository is licensed under Apache-2.0. The datasets are
 
 ## Abstract
 
-    Understanding the composition of large-scale autonomous driving datasets is essential for safety, robustness, and reliable operation across domains.
-    For example, domain shift between locations could lead to the operating environment being misaligned with the training data, resulting in potentially dangerous performance degradation.
-    Yet, existing data analysis pipelines largely rely on metadata, predefined labels, or manual inspection, which provide limited semantic insight or do not scale.
-    This paper studies *set difference captioning*: given two subsets of images, the goal is to produce a natural-language hypothesis describing differences between the target and reference set.
-    Building on a two-stage formulation, we adapt the method to autonomous driving by focusing on object-centric patches derived from object detection, which simplifies aggregation and enables attribution of differences to specific object instances or categories.
-    To evaluate this setting in-domain, we introduce a new benchmark, AD-Diff Bench.
-    Low-*concentration* experiments assess the suitability of set-difference-captioning approaches to sparse, real-world differences.
-    We restrict our experiments to open-weight models to support reproducibility and ease of deployment.
-    The proposed benchmark and analysis provide a step towards practical, human-interpretable dataset introspection for autonomous driving datasets.
+Understanding the composition of large-scale autonomous driving datasets is essential for safety, robustness, and reliable operation across domains.
+For example, domain shift between locations could lead to the operating environment being misaligned with the training data, resulting in potentially dangerous performance degradation.
+Yet, existing data analysis pipelines largely rely on metadata, predefined labels, or manual inspection, which provide limited semantic insight or do not scale.
+This paper studies *set difference captioning*: given two subsets of images, the goal is to produce a natural-language hypothesis describing differences between the target and reference set.
+Building on a two-stage formulation, we adapt the method to autonomous driving by focusing on object-centric patches derived from object detection, which simplifies aggregation and enables attribution of differences to specific object instances or categories.
+To evaluate this setting in-domain, we introduce a new benchmark, AD-Diff Bench.
+Low-*concentration* experiments assess the suitability of set-difference-captioning approaches to sparse, real-world differences.
+We restrict our experiments to open-weight models to support reproducibility and ease of deployment.
+The proposed benchmark and analysis provide a step towards practical, human-interpretable dataset introspection for autonomous driving datasets.
 
 <img src="data/teaser.png"></img>
 
