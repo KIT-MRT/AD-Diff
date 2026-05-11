@@ -152,7 +152,8 @@ This dataset is intended for non-commercial research purposes only and may only 
 Image patches in these datasets inherit their license from the dataset from which they were extracted:
 - [KITTI](https://www.cvlibs.net/datasets/kitti/) ((c) Andreas Geiger, Philip Lenz, Christoph Stiller, Raquel Urtasun) is published under the [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License](https://creativecommons.org/licenses/by-nc-sa/3.0/).
 - [nuImages](https://www.nuscenes.org/nuimages) ((c) by Motional AD Inc.) is published under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
-- [Waymo Open Dataset](https://waymo.com/open/) ((c) Waymo LLC.) is published under the [Waymo Dataset License Agreement for Non-Commercial Use (March 2025)](https://waymo.com/open/terms/). 
+- [Waymo Open Dataset](https://waymo.com/open/) ((c) Waymo LLC) is published under the [Waymo Dataset License Agreement for Non-Commercial Use (March 2025)](https://waymo.com/open/terms/):
+  > This software was made using the Waymo Open Dataset, provided by Waymo LLC under the Waymo Dataset License Agreement for Non-Commercial Use, available at [waymo.com/open/terms](waymo.com/open/terms), and your access and use of such work are governed by the terms and conditions therein.
 
 All annotation-filtered and CLIP-filtered splits of the dataset allow non-commercial use only.
 
