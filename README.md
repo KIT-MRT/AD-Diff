@@ -33,9 +33,10 @@ The proposed benchmark and analysis provide a step towards practical, human-inte
 ## Prepare Benchmark Datasets
 
 AD-Diff Bench, our benchmark dataset, consists of three splits: annotation-filtered, CLIP-filtered, and web-scraped.
+You can download our dataset (here)[https://www.mrt.kit.edu/ad-diff-bench/].
 
 ### Annotation-filtered and CLIP-filtered splits
-Configs and image patches from KITTI and nuImages can be downloaded here: **TODO**
+First download the tar-file containing the configs and image patches from KITTI and nuImages `AD-Diff_Bench-ad-datasets.tar.gz` from (here)[https://www.mrt.kit.edu/ad-diff-bench/].
 By downloading, you agree to comply with to the copyright and license terms at the end of this readme.
 
 Extract the tar-file in the root of the repository: `tar xf AD-Diff_Bench-ad-datasets.tar.gz`
@@ -53,7 +54,7 @@ Unfortunately, the license of the Waymo Open Perception Dataset does not permit 
 ### Web-scraped split
 German copyright law does not permit us to distribute a dataset of copyrighted images. We instead publish the list of URLs from which you can download the images used in the evaluations in the paper.
 
-First download the configs and image URLs here: **TODO**
+First download the tar-file containing the configs and image URLs `AD-Diff_Bench-web-scraped.tar.gz` from (here)[https://www.mrt.kit.edu/ad-diff-bench/].
 By downloading, you agree to comply with the copyright and license terms at the end of this readme. Please note that the images to which the URLs in this dataset point are copyrighted. This dataset is provided for non-commercial research purposes only and may not be shared or distributed.
 
 Unpack the tar-file in the root of the repository: `tar xf AD-Diff_Bench-web-scraped.tar.gz`
