@@ -33,7 +33,6 @@ The proposed benchmark and analysis provide a step towards practical, human-inte
 ## Prepare Benchmark Datasets
 
 AD-Diff Bench, our benchmark dataset, consists of three splits: annotation-filtered, CLIP-filtered, and web-scraped.
-You can download our dataset [here](https://www.mrt.kit.edu/ad-diff-bench/).
 
 ### Annotation-filtered and CLIP-filtered splits
 First download the tar-file containing the configs and image patches from KITTI and nuImages `AD-Diff_Bench-ad-datasets.tar.gz` from [here](https://www.mrt.kit.edu/ad-diff-bench/).
