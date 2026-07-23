@@ -132,9 +132,9 @@ You first need to launch vLLM, a LLM and VLM inference engine which we use to de
 
 ## Benchmark your own approach
 
-To benchmark your own approach for object-centric set difference captioning on AD-Diff Bench, you can simply inherit from the classes in `components/proposer.py` and `components/ranker.py`. For a two-stage approach, inherit from `SamplingProposer` in `components/proposer.py`, overriding `get_hypotheses()` with your own implementation. Change the proposer method to your own in the main config file `config/base.yaml` and import it in `main.py`. Set the ranker to `CLIPRanker` in `config/base.yaml` or implement your own ranker by inheriting from `Ranker` in `components/ranker.py`. 
+To benchmark your own approach for object-centric set difference captioning on AD-Diff Bench, you can simply inherit from the classes in `components/proposer.py` and `components/ranker.py`. For a two-stage approach, inherit from `SamplingProposer` in `components/proposer.py`, overriding `get_hypotheses()` with your own implementation. Change the proposer method to your own in the main config file `configs/base.yaml` and import it in `main.py`. Set the ranker to `CLIPRanker` in `configs/base.yaml` or implement your own ranker by inheriting from `Ranker` in `components/ranker.py`. 
 
-If you want to implement a one-stage approach, set the ranker in `config/base.yaml` to `NullRanker`. 
+If you want to implement a one-stage approach, set the ranker in `configs/base.yaml` to `NullRanker`. 
 
 To implement other approaches that do *not* propose hypotheses from smaller sub-sets of the datasets, implement a proposer by directly inheriting from `Proposer` in `components/proposer.py` and override `propose()`. You can then access all images from both sets (instead of a randomly sampled subset). You can then again skip the ranker step by setting the ranker to `NullRanker`, if you want to rank your hypotheses in the proposer.
 
